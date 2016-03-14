@@ -84,7 +84,7 @@ li {
 	transition: all .2s ease-in-out;
 }
 #image-main:hover {
-	transform: scale(1.6);
+	transform: scale(1.2);
 }
 .image {
 /* 	height: 300px; */
