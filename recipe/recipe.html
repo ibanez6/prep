@@ -1,0 +1,55 @@
+<!-- 
+Users can mark an ingredient after they buy it.
+Users can keep their place in the directions list as they cook.
+Users can hide all photos.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chicken Stirfry Recipe</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="content">
+		<h1>Chicken Stirfry Recipe</h1>
+		<img id="image-main" src="images/recipe.jpg">
+		<h3>Summary:</h3>
+		<p>
+			This is one of my favourite dishes. It's a quick and easy meal that will leave you feeling full and energized for hours. Let's get started! First we are going to need our ingredients. You can click each ingredient in the list below to check it off your list.
+		</p>
+		<div class="button-container"><button id="hide">Show\Hide Photos</button></div>
+		<section id="ingredients">
+			<ul id="list-ingredients"><h2>Ingredients:</h2>
+				<li class="ingredient"><em><strong> 1 </strong></em> Boneless Chicken Breast</li>
+				<li class="ingredient"><em><strong>1/2 Cup</strong></em> Organic Quinoa</li>
+				<li class="ingredient"><em><strong>2 Cups</strong></em> Frozen Mixed Vegetables</li>
+				<li class="ingredient">Spices</li>
+				<li class="ingredient">Spicy Thai Sauce</li>
+			</ul>
+			<img class="image" src="images/ingredients.jpg">
+		</section>
+		<p>
+			Alright, time to put everything into action! Follow along with the steps listed below. You can keep track of your progress by clicking on each direction.
+		</p>
+		<section id="directions">
+			<ol id="list-directions"><h2>Directions:</h2>
+				<li class="direction">Bring 1 cup of water to boil and add Quinoa. Cook until water is absorbed.</li>
+				<img class="image" src="images/quinoa.jpg">
+				<li class="direction">Steam 2 cups of frozen mixed vegetables.</li>
+				<img class="image" src="images/veges.jpg">
+				<li class="direction">Season and cook chicken breast.</li>
+				<img class="image" src="images/chicken.jpg">
+				<li class="direction">Dice up chicken breast and combine with quinoa and vegetables in a pan.</li>
+				<img class="image" src="images/combine.jpg">
+				<li class="direction">Add sauce and spices to taste.</li>
+				<li class="direction">Stir and simmer for 5 minutes.</li>
+				<li class="direction">Dig in and enjoy!!.</li>
+			</ol>			
+			<div class="button-container"><button id="clear">Clear Progress</button></div>
+		</section>
+	</div>	
+</body>
+</html>
